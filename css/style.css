@@ -1,0 +1,210 @@
+* {
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+body {
+    background-color: #f4f6f9;
+}
+
+.shadow_plate { /* общий контейнер, отдающий тень */
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: white;
+    margin: 40px auto; /* отцентровал по центру всё */
+    /* box-shadow: 0 0 5px */
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 830px;
+}
+.projects, .experience, .education, .info_header {
+    margin-left: 80px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.info_header{
+    margin-top: 80px;
+    width: 520px;
+}
+
+.info_prof {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.info_h2 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.info_aboutme, .projects_link, .projects_flag, .experience_string {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #595959;
+}
+
+.projects {
+    margin-top: 50px;
+    width: 560px;
+}
+
+/* .projects_item {
+    display: inline-block;
+}
+ */
+
+/* .projects_item {
+    border-bottom: 4px dotted #4d4d4d;
+} */
+
+/* .projects_link {
+    position :relative;
+    margin-right:8em;
+} */
+
+/* это попытки сделать подвижное подчёркивание из точек, как в содержании книг */
+
+/* .projects_item::before { 
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:". . . . . . . . . . . "
+            ". . . . . . . . . . . "
+            ". . . . . . . . . . . "
+            ". . . . . . . . . . . "
+}
+
+.projects_item span:first-child {
+    padding-right: 0.33em;
+} */
+/* .projects_link {
+    padding-right: 0.33em;
+} */
+
+.projects_flag {
+    float: right;
+    padding-left: 0.33em; /* это размазало мои флажки по правому краю блока!!!!!!!!!!!!!!!!! */
+}
+
+.projects_item, .projects_flag span {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px; 
+    /* or 171% */
+    color: #000000;
+}
+
+.experience {
+    margin-top: 50px;
+    width: 520px;
+}
+
+.experience_place {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.experience_place span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #FB6D3A;
+}
+
+.experience_item {
+    margin-top: 16px;
+}
+
+.experience_timeplace {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #A8A8A8;
+}
+
+.education {
+    margin-top: 30px;
+    width: 520px;
+}
+
+.sidebar {
+    background-color: #1E2939;
+}
+
+.sidebar_portrait {
+    margin-top: 40px;
+}
+
+.sidebar_h2 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.sidebar_icon {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #FFFFFF;
+}
+
+.sidebar_contact {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.sidebar_contacts, .tech_skills, .soft_skills {
+    margin: 50px 0 0 40px;
+}
+
+.sidebar_listitem {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #FFFFFF;
+}
+
+/* .sidebar_ul {
+    float: left;
+    padding-left: 0.33em;
+} */
+.sidebar_ul li {
+    list-style-type: none;
+}
+.sidebar_ul li::before {
+    color: #fb6d3a; /* Цвет маркера */
+    content: "● "; /* Сам маркер */
+    padding-right: 5px; /* Расстояние от маркера до текста */
+}
