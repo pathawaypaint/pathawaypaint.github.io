@@ -67,21 +67,6 @@ h1 {
     width: 560px;
 }
 
-/* .projects_item {
-    display: inline-block;
-}
- */
-
-/* .projects_item {
-    border-bottom: 4px dotted #4d4d4d;
-} */
-
-/* .projects_link {
-    position :relative;
-    margin-right:8em;
-} */
-
-/* это попытки сделать подвижное подчёркивание из точек, как в содержании книг */
 
 /* .projects_item::before { 
     float: left;
@@ -102,8 +87,7 @@ h1 {
 
 .projects_flag {
     float: right;
-    padding-left: 0.33em; /* это размазало мои флажки по правому краю блока!!!!!!!!!!!!!!!!! */
-}
+    padding-left: 0.33em; 
 
 .projects_item, .projects_flag span {
     font-weight: bold;
